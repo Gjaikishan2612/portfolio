@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jay Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">JAY's Portfolio"</div>
+            <div class="rights">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact me">contact me</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <header>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My Name is <span class="purple">jay</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="./resume.pdf" download class="btn">Download Resume</a>
+                    <button class="btn">Visit Github</button>
+
+
+                </div>
+            </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="shyam.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>MY PROFILES</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="whatsapp.png" alt="">
+                    <div class="vertical-title">
+                        WhatsApp (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        <li>MY Whats app profile G Shyam</li>
+                        <li>MY contect Number 6267647626</li>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">
+                        Facebook (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        <li>MY Facebook profile name jaykishan</li>
+                        <li>G. Jaikishan — always striving for growth, adventure, and
+                            making meaningful connections. Life's a journey,</li>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="linkdin.png" alt="">
+                    <div class="vertical-title">
+                        linkdin (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        <li>GJaikishan(shyam)
+                            This bio is customizable based on your industry and expertise.
+                            Let me know if you'd like to adds more..</li>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="github.png" alt="">
+                    <div class="vertical-title">
+                        Github (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        <li>"Passionate about coding and creating innovative solutions.
+                            and contributing to open-source projects.
+                            Let’s build something amazing together!"
+                        </li>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        Twitter (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        <li>Twitter is a social media and microblogging platform
+                            where users share short messages (called "tweets")
+                            up to 280 characters. It's a real-time network for news,
+                            discussions, and connections.
+                        </li>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'digital artist', 'Graphic Desiger', 'Gamer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!--------------about------------------->
+</body>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image2.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My Name is G jaykishan . Iam 21 years Old I live in BHILAI and have
+                    a family .I have done my polytecnic in IT branch from Uday prasad Uday Gav
+                    polytecnic Durg. I have got Skills from 1years
+                    my strength are: I am hard-working quick learner self-motivated & multi-tasker.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Project')">Project</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML CSS JAVASCRIPT</span><br>(Designing website/Webpage[interfaces)</li>
+                        <li><span>Web development</span><br>(Completed)</li>
+                        <li><span>Artist </span><br>(Drowing\Acrylic Painting/Sketches)</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Project">
+                    <ul>
+                        <li><span>Internship website</span><br>(Using html javascript css Database)</li>
+                        <li><span>Notes Management system website</span><br>(javascript css html Database)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>(10th & 12th) </span><br>(I have done Diploma in 2024)</li>
+                        <li><span>B-Tech (2024)</span><br>(join in B-tech 2nd year in lateral entry)</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------project----------------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My project</h1>
+        <div class="project-list">
+            <div>
+                <h2>Internship Webiste</h2>
+                <p>As a skilled web development intern, I crafted visually stunning
+                    and user-friendly websites, honing my expertise in HTML, CSS, JavaScript,
+                    and responsive design. I successfully collaborated with clients to bring
+                    Through this internship, I refined my coding skills, expanded my knowledge of
+                    web technologies, and developed a passion for creating engaging digital experiences."
+                </p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <h2>NOTES MANAGEMENT SYSTEM</h2>
+                <p> In the fast-paced world of academia and professional Life
+                    this is project aims to develop a user-friendly web application 
+                    that allows user to create,store,categorize,and acces their notes 
+                    from any device with an internet connections.
+                </p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <h2>Artist</h2>
+                
+                   <li>1. "Bringing beauty to life,one brushstroke at a time."</li>
+                   <li>2. "Colors of imagination, strokes of passion."</li>
+                   <li>3. "Where art meets emotion."</li>
+                   <li>4. "Painting the world with vibrant hues."</li>
+                   <li>5. "Capturing life's essence, one canvas at a time."</li>
+                   <li>6. "Vibrant colors, infinite emotions."</li>
+                    
+                    
+                <a href="#"> Learn more</a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!--- -----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="photo1.png" alt="">
+                <div class="layer">
+                    <h3>New Projects</h3>
+                    <p>Upcoming new project new website for users public this helps
+                        many peoples in this website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photo2.png" alt="">
+                <div class="layer">
+                    <h3>New App Development</h3>
+                    <p>The app connects you yo the talented people around the world..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photo3.png" alt="">
+                <div class="layer">
+                    <h3>search job</h3>
+                    <p> As a fresher in software development, it's important to focus 
+                        on roles that align with your skills, interests, and the latest
+                        industry trends. Here are a few key areas you could consider:</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<!-- --------contact------------- -->
+<div id="contact me">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jaykishan261204@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>6267647626</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="./resume.pdf" download class="btn btn2">Download CV"</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email required">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+    }
+
+</script>
+
+</body>
+
+
+</html>
